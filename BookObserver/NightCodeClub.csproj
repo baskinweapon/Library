@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.8.3" />
+      <PackageReference Include="OpenAI" Version="1.7.2" />
+      <PackageReference Include="Telegram.Bot" Version="19.0.0-preview.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Callbacks\" />
+    </ItemGroup>
+
+</Project>
